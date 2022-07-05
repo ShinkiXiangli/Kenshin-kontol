@@ -11,11 +11,11 @@ function sleep(ms) {
 (async () => {
 	console.clear()
  CFonts.say(`Zexxy X Kenshin`, {
-            font: '3D',
+            font: 'bold',
             align: 'left',
             gradient: ['red', 'magenta']
         })
-        await sleep(5000);
+        await sleep(500);
         console.clear()
         console.log(`${chalk.yellow(`Since Script 2022 - 5 - 21`)}`)
 console.log(`${chalk.white(`
