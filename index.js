@@ -72,9 +72,8 @@ await sleep(3000);
     } else if (result == "SERVER_ERROR") {
 continue ;
     } else {
-        continue;
-    }
+    continue;
+   }
   }
-
-
+ }
 })();
