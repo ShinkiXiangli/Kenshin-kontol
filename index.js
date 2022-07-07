@@ -69,8 +69,10 @@ await sleep(3000);
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`KEBANYAKAN NYATIR JADINYA DI BAN 🤣`));
      break;
+    } else if (result == "SERVER_ERROR") {
+      continue ;
     } else {
-    continue ;
+      continue ;
    }
 
  }
