@@ -64,7 +64,7 @@ console.clear()
 
 console.log(chalk.green(`\rTime : [ ${moment().format('HH:mm:ss')} ] ${chalk.red(`!`)}${chalk.green(`User : ${username}`)} | ${chalk.red(`!`)}${chalk.cyan(`Trophy : ${trophy}`)} | ${chalk.red(`!`)}${chalk.green(`Crown : ${crown}`)}
 ${chalk.red(` Status : Succes✓`)}\n`));
-await sleep(000);
+await sleep(3000);
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`KEBANYAKAN NYATIR JADINYA DI BAN 🤣`));
